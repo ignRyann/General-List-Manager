@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="General List Manager:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>General List Manager</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="General-List-Manager-1.0.war">
+      <element id="artifact" artifact-name="General List Manager:war exploded" />
+    </root>
+  </artifact>
+</component>
