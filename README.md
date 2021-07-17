@@ -41,4 +41,31 @@ This forwards the user to the dashboard where they can edit the data
 ##### Search
 The user is able to search for an item within the chosen lists.
 
+## View All Lists Page
+
+###### - Top of the Page
+The 'View All Data' button allows the user to view the contents of the program as a whole. Every list is displayed as a table, with the contents being items themeslves. Clicking on the lists' name will redirect the user to the contents of the specific list. If an item is linked to another list, clicking on the item's name will scroll to the lists' table that it is linked to.
+
+###### - Left Side of the Page
+The user is shown the names of all the lists. A search bar is present at the top, which filters the names of the lists by displaying the ones that contains the search key. Clicking on the name of the list will open up the list contents.
+
+###### - Right Side of the Page
+The List Editor allows the user to edit the lists. They can add a list by entering its name, which should only consist of letters and numbers. They can delete one or multiple lists by selecting the list name(s) and pressing the button. They can also change the name of the list by selecting the list and entering the name they wish to change it to.
+
+## View List Page
+
+###### Top of the Page
+Adding an item to the list is done by entering the item's name and adding it the list, as long as the item name does not already exist. The item name can only consist of letters and numbers
+
+###### Centre of the Page
+The names of all the items are displayed in a table with the option to view the specific item or remove it from the list. A search bar is set at the top of the table to filter out the items given a search key. The 'View' button will display the item's contents whereas the 'Delete' button will remove the item from the list and refresh the page.
+
+###### View an Item Page
+
+###### Top of the Page
+A button is displayed to allow the user to go back to the list the item belongs to. It also displays the name of the list it belongs to.
+
+###### Centre of the Page
+The contents of the item are displayed in a table and shows the following: item name, item link, item text, item URL, item file. Changing the item's name will redirect the user back to the list with the item's name changed. Deleting the item's name will delete the item itself. Linking an item to a list is done by selecting an option of all the lists available. Resetting an item's link results in the item being linked to nothing. The item description has a 1000 character limit and can be set or deleted via the designated buttongs. Setting the item's URL is done by inputting a valid URL. Once set, the user can click on the URL to visit it as well. Deleting it will get rid of the item's URL. The item file is set by choosing a file from your files. It will then upload the file and save it within the programs data. Once set, the file will download once clicked on. Deleting it will delete the file from the programs contents.
+
 
